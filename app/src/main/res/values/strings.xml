@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Story_App_HW_Jimenez_Luis</string>
+    <string name="first_activity_text_view">Please enter a verb (A word that expresses an action)</string>
+    <string name="first_activity_button">Press here to continue!</string>
+    <string name="second_activity_text_view">Please enter a noun(plural) A person place or thing</string>
+    <string name="second_activity_button">Press here again!</string>
+    <string name="third_activity_text_view">Please enter a verb (A word that expresses an action</string>
+    <string name="third_activity_button">One more time!</string>
+    <string name="fourth_activity_text_view">Please enter a noun(plural) A person place or thing</string>
+    <string name="fourth_activity_button">You know the drill! Click here!</string>
+    <string name="fifth_activity_text_view">Enter the name of a T.V show</string>
+    <string name="fifth_activity_button">Just a few more presses to go!</string>
+    <string name="sixth_activity_text_view">Please enter a noun A person place or thing</string>
+    <string name="sixth_activity_button">Almost There!</string>
+    <string name="seventh_activity_text_view">Please enter a verb (A word that expresses an action</string>
+    <string name="seventh_activity_button">Last but not least!</string>
+    <string name="eighth_activity_text_view">Please enter a noun A person place or thing</string>
+    <string name="eighth_activity_button">Whoops! This time I\'m sure its the last time</string>
+</resources>
