@@ -20,7 +20,7 @@ public class ThirdActivity extends AppCompatActivity {
             public void onClick(View v) {
                 String thirdInput =  thirdActivityEditText.getText().toString();
                 if(TextUtils.isEmpty(thirdInput)) {
-                    thirdActivityEditText.setError("C'mon type something in..");
+                    thirdActivityEditText.setError("This field can't be left blank");
                     return;
                 }
                 Intent intent = new Intent(v.getContext(),FourthActivity.class);
