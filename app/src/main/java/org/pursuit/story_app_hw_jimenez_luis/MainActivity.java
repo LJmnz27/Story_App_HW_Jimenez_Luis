@@ -29,8 +29,8 @@ public class MainActivity extends AppCompatActivity {
                     return;
                 }
                 Intent intent = new Intent(getApplicationContext(), SecondActivity.class);
-                startActivity(intent);
                 intent.putExtra(FIRST_ACTIVITY_KEY, input);
+                startActivity(intent);
             }
         });
     }

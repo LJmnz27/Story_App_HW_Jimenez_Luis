@@ -25,7 +25,7 @@ public class FourthActivity extends AppCompatActivity {
                     fourthActivityEditText.setError("This field can't be left blank");
                     return;
                 }
-                Intent intent = new Intent(v.getContext(),FourthActivity.class);
+                Intent intent = new Intent(v.getContext(),FifthActivity.class);
                 startActivity(intent);
                 intent.putExtra(FOURTH_ACTIVITY_KEY, thirdInput);
             }

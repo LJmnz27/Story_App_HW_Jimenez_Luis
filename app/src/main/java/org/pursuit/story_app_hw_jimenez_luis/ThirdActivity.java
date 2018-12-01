@@ -19,13 +19,14 @@ public class ThirdActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 String thirdInput =  thirdActivityEditText.getText().toString();
+
                 if(TextUtils.isEmpty(thirdInput)) {
                     thirdActivityEditText.setError("This field can't be left blank");
                     return;
                 }
                 Intent intent = new Intent(v.getContext(),FourthActivity.class);
-                startActivity(intent);
                 intent.putExtra(THIRD_ACTIVITY_KEY, thirdInput);
+                startActivity(intent);
             }
         });
     }

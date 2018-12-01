@@ -29,9 +29,12 @@ public class SecondActivity extends AppCompatActivity {
                     secondActivityEdittext.setError("This field can't be left blank");
                     return;
                 }
+
                 Intent intent = new Intent(getApplicationContext(),ThirdActivity.class);
-                startActivity(intent);
+
+
                 intent.putExtra(SECOND_ACTIVITY_KEY, secondInput);
+                startActivity(intent);
             }
         });
         }
