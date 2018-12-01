@@ -31,8 +31,6 @@ public class SecondActivity extends AppCompatActivity {
                 }
 
                 Intent intent = new Intent(getApplicationContext(),ThirdActivity.class);
-
-
                 intent.putExtra(SECOND_ACTIVITY_KEY, secondInput);
                 startActivity(intent);
             }

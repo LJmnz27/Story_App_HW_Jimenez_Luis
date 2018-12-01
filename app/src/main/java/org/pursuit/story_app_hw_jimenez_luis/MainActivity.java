@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent(getApplicationContext(), SecondActivity.class);
                 intent.putExtra(FIRST_ACTIVITY_KEY, input);
                 startActivity(intent);
+                finish();
             }
         });
     }
